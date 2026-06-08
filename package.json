@@ -1,10 +1,10 @@
 {
   "name": "sca-custom-npm-test",
   "version": "1.0.0",
-  "description": "Small custom npm repo for SCA testing with multiple npm packages",
+  "description": "Small custom npm repo for SCA testing using argparse package",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js --name Tamil --role tester",
+    "start": "node src/index.js --name Tamil --role tester --email tamil@test.com",
     "audit": "npm audit",
     "audit-json": "npm audit --json"
   },
@@ -34,7 +34,6 @@
     "commander": "2.20.0",
     "dotenv": "8.2.0"
   },
-  "devDependencies": {},
   "keywords": [
     "sca",
     "security",
