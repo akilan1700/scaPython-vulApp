@@ -1,0 +1,48 @@
+{
+  "name": "sca-custom-npm-test",
+  "version": "1.0.0",
+  "description": "Small custom npm repo for SCA testing with multiple npm packages",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js --name Tamil --role tester",
+    "audit": "npm audit",
+    "audit-json": "npm audit --json"
+  },
+  "dependencies": {
+    "argparse": "1.0.10",
+    "minimist": "0.0.8",
+    "lodash": "4.17.15",
+    "axios": "0.21.1",
+    "express": "4.17.1",
+    "mongoose": "5.13.0",
+    "moment": "2.19.3",
+    "request": "2.88.0",
+    "debug": "2.6.8",
+    "qs": "6.5.2",
+    "jsonwebtoken": "8.5.1",
+    "bcryptjs": "2.4.3",
+    "cors": "2.8.5",
+    "helmet": "3.23.3",
+    "body-parser": "1.19.0",
+    "cookie-parser": "1.4.5",
+    "multer": "1.4.2",
+    "node-fetch": "2.6.1",
+    "validator": "10.11.0",
+    "uuid": "3.3.2",
+    "yargs": "13.3.2",
+    "chalk": "2.4.2",
+    "commander": "2.20.0",
+    "dotenv": "8.2.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "sca",
+    "security",
+    "npm",
+    "argparse",
+    "vulnerable-demo",
+    "dependency-scanning"
+  ],
+  "author": "SCA Test",
+  "license": "MIT"
+}
