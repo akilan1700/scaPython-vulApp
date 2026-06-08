@@ -9,7 +9,7 @@
     "audit-json": "npm audit --json"
   },
   "dependencies": {
-    "argparse": "1.0.10",
+    "argparse": "2.0.1",
     "minimist": "0.0.8",
     "lodash": "4.17.15",
     "axios": "0.21.1",
